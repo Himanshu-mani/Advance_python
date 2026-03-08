@@ -48,19 +48,3 @@ if __name__ == "__main__":
     my_secure_ai.view_key = "NEW_SECURE_123" # Pass
     
     print(f"Final Status: {my_secure_ai.view_key}")
-
-
-    '''
-    🧐 Ye Code Asliyat Mein Kar Kya Raha Hai?
-1. The Rulebook (Abstraction)
-SystemProtocol ek kanoon hai. Tune Python ko bola: "Bhai, koi bhi security module bane, usme verify_security hona hi chahiye." Agar koi junior developer naya module banaye aur ye method bhul jaye, toh code chalega hi nahi. Ye Consistency banaye rakhta hai.
-
-2. The Private Vault (Encapsulation)
-Tune __secret_key likha. Isse wo key bahar ki duniya se chhup gayi. Koi bhi print(my_ai.__secret_key) karke tera password chori nahi kar sakta. Ye Data Security hai.
-
-3. The Masked View (The Getter)
-@property ka use karke tune ek aisa function banaya jo variable ki tarah kaam karta hai. Iska sabse bada fayda ye hai ki tune Full Key nahi dikhayi, sirf last 3 digits dikhaye (*****999). User ko wahi dikhao jo uske kaam ka hai.
-
-4. The Smart Filter (The Setter)
-Jab koi key badalna chahe (my_ai.view_key = "..."), toh tune beech mein ek Checkpost laga diya (if len(new_key) >= 8). Agar password chota hai, toh system use reject kar dega. Isse tera database hamesha safe rahega.
-    '''
