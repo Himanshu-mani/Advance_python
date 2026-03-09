@@ -1,17 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     # Topic 04: Exception Handling
 
 class SecurityError(Exception): pass # Apna chota sa custom error
@@ -36,5 +22,6 @@ def run_system():
         
     finally:
         print("[System] Task Finished.") # Hamesha chalega
+
 
 run_system()
