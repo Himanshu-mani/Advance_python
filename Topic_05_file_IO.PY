@@ -28,4 +28,5 @@ if __name__ == "__main__":
     update_memory(user_input)
 
     # 2. Saari yaadein wapas padhna
+
     read_all_memories()
